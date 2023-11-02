@@ -1,0 +1,33 @@
+body {
+    background-color: #F1DEC9;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto {
+    text-align: center;
+    padding: 0 1em;
+}
+#peso, #altura {
+    width: 20%;
+    border-radius: 10px;
+    text-align: center;
+}
+.imagem {
+    width: 100%;
+}
+#res, #informacao {
+    margin: 1em;
+}
+
+#verificar {
+    background-color: #F1DEC9;
+}
+
+#verificar:hover {
+    background-color: rgb(139, 105, 63);
+}
